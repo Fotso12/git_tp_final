@@ -6,5 +6,6 @@ h2 {
     color: green;
 }
 ol{
-    list-style-type: upper-roman;
+    list-style-type: upper-latin;
+    
 }
