@@ -36,14 +36,14 @@ Dans ce second exercice, vous allez modifier les lignes qui suivent dans le READ
 
 > Ce sont ces informations qui me permettront de vous noter, si vous ne vous présentez pas ici, je ne pourrais pas vous noter :)
 
-Noms des étudiants : 
-* LEFEBVRE Charles
-* MICHELIS Nathanyel
-* COMPAGNONI Florent
+Noms des étudiants :
 
-Date du jour : 28/01/2021
+* TAMO FOTSO Michel Darryl
+* YOUESSAH Audrey
 
-Tout est ok ? 
+Date du jour : 7/11/2025
+
+Tout est ok ?
 Faites donc un **commit** et **pushez** moi tout ça sur master (sur **votre** dépôt donc, puisque vous l'avez forké).
 
 > N'importe lequel des collaborateurs peut pusher !
@@ -51,6 +51,7 @@ Faites donc un **commit** et **pushez** moi tout ça sur master (sur **votre** d
 ### Exercice 3 : Travail d'équipe ! (5 points)
 
 Pour cet exercice, je vais appeler les collaborateurs :
+
 * collaborateur 1
 * collaborateur 2
 * collaborateur 3
@@ -59,20 +60,20 @@ selon l'ordre dans lequel vous avez mis vos noms dans la présentation.
 
 >(Si vous n'êtes pas un groupe de 3 mais inférieur,  la logique est la même mais l'un d'entre vous fera les tâches des manquants :) )
 
-
 Il est attendu de tous les collaborateurs de respecter les bonnes pratiques Git et de séparer au mieux leur travail en de multiples petits commits **pertinents** !
 
 **La note prendra compte de cela** !
 
 Toutes les missions peuvent être évidemment réalisées en parallèle par les collaborateurs.
 
-#### Mission collaborateur 1 :
+#### Mission collaborateur 1
 
 Le **collaborateur 1** est missionné par le client pour ajouter un peu de gaïté au site très morose.
 
 Il va devoir effectuer **tout son travail** sur une branche nommée **"feature/collab-1"**.
 
-Le **collaborateur 1** devra : 
+Le **collaborateur 1** devra :
+
 * Ajouter un fichier de style CSS **styles.css** et le lier au fichier **index.html** du projet.
 * Mettre le titre **h1** en rouge
 * Mettre le titre **h2** en vert
@@ -80,32 +81,33 @@ Le **collaborateur 1** devra :
 
 Une fois que le **collaborateur 1** estime que tout son travail est fini, il peut **push** sa branche sur le dépôt distant.
 
-#### Mission collaborateur 2 :
+#### Mission collaborateur 2
 
 Le **collaborateur 2** est missionné par le client pour ajouter des informations au site actuel.
 
 Il va devoir effectuer **tout son travail** sur une branche nommée **"feature/collab-2"**.
 
-Le **collaborateur 2** devra : 
+Le **collaborateur 2** devra :
 
 * Ajouter une ligne d'information `Prof de git: Thomas Ecalle` où il le souhaite dans la liste déjà présente
 * Ajouter une courte description sous chaque élément de la liste (ça peut être complètement Random, je ne juge pas vos talents d'écrivains hors pairs).
 
-Côté HTML, ça peu têtre simplement quelque chose comme : 
+Côté HTML, ça peu têtre simplement quelque chose comme :
 
 ```
 <li>Mon élément</li>
 Ma superbe description
 ```
+
 Une fois que le **collaborateur 2** estime que tout son travail est fini, il peut **push** sa branche sur le dépôt distant.
 
-#### Mission collaborateur 3 :
+#### Mission collaborateur 3
 
 Le **collaborateur 3** est missionné par le client pour corriger des erreurs qui se sont glissées sur le site actuel.
 
 Il va devoir effectuer **tout son travail** sur une branche nommée **"hotfix/collab-3"**.
 
-Le **collaborateur 3** devra : 
+Le **collaborateur 3** devra :
 
 * Corriger la faute sur le titre **h2**
 * Corriger la faute dans l'adresse
@@ -135,24 +137,23 @@ Débrouillez-vous donc pour avoir les traces de vos branches et donc des commits
 
 Les fusions doivent se faire dans l'ordre suivant :
 
-#### 1ère fusion :
+#### 1ère fusion
 
 Fusionnez la branche **hotfix/collab-3** sur la branche **master**.
 
-#### 2ème fusion :
+#### 2ème fusion
 
 Fusionnez la branche **feature/collab-2** sur la branche **master**.
 
 > Attention ici, au moment du Merge, a bien garder les corrections apportées par le **collaborateur 3** !
 
-#### 3ème fusion :
+#### 3ème fusion
 
 Fusionnez la branche **feature/collab-1** sur la branche **master**.
 
 > Attention ici, au moment du Merge, a bien garder les modifications apportées par les **collaborateurs 2 et 3** tout en y ajoutant les modifications du **collaborateur 1** !
 
-
-### Fin des exercices :
+### Fin des exercices
 
 Tout est ok ?
 Alors n'oubliez pas de **push sur master** le résultat de toutes ces fusions sur votre dépôt distant et ... ce sera tout pour ce TP :)
@@ -163,14 +164,14 @@ J'ai développé un script qui va me permettre, à la fin du temps imparti, de *
 
 **Il est donc impossible de continuer le travail après le temps imparti** car je n'aurai en local que la version figée au moment du script, et donc sans vos changements d'après ;)
 
-### Notation :
+### Notation
 
-La notation est assez simple et vous donne un 10 plutôt facile : 
+La notation est assez simple et vous donne un 10 plutôt facile :
 
- - Exercice 1 : 5 points
- - Exercice 2 : 5 points
- - Exercice 3 : 5 points
- - Exercice 4 : 5 points
+* Exercice 1 : 5 points
+* Exercice 2 : 5 points
+* Exercice 3 : 5 points
+* Exercice 4 : 5 points
 
 Le **10** est donc plutôt simple à avoir si vous suivez les étapes correctement.
 
@@ -180,5 +181,3 @@ L'exercice **3** sera plus personnel car je noterai chaque collaborateur différ
 > Attention, étant donné que les exercices **1** et **2** sont très simples, je serai stricte sur le respect des bonnes pratiques pour les exercices **3** et **4**
 
 **Bon courage :)**
-
-
